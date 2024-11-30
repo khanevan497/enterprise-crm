@@ -13,3 +13,9 @@ JWT signed with secret_key_base, 24-hour expiry. Bearer token required on all en
 **feat: multi-tenant organization scoping on all models**
 
 All models include for_org scope. Every query enforces where(organization_id: current_user.organization_id).
+
+### 2024-11-30
+
+**feat: contacts CRUD with search and status filtering**
+
+Full CRUD with name/email search and status filter (active, inactive, lead, prospect, customer).
