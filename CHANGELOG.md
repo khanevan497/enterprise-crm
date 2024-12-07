@@ -19,3 +19,9 @@ All models include for_org scope. Every query enforces where(organization_id: cu
 **feat: contacts CRUD with search and status filtering**
 
 Full CRUD with name/email search and status filter (active, inactive, lead, prospect, customer).
+
+### 2024-12-07
+
+**feat: companies management with contact relationship linking**
+
+Companies have many contacts. Contact detail page shows associated company with link.
