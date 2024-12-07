@@ -25,3 +25,9 @@ Full CRUD with name/email search and status filter (active, inactive, lead, pros
 **feat: companies management with contact relationship linking**
 
 Companies have many contacts. Contact detail page shows associated company with link.
+
+### 2024-12-07
+
+**feat: deal pipeline across six stages from Lead to Closed**
+
+Stages: Lead, Qualified, Proposal, Negotiation, Closed Won, Closed Lost.
