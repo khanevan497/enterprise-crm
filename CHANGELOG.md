@@ -31,3 +31,9 @@ Companies have many contacts. Contact detail page shows associated company with 
 **feat: deal pipeline across six stages from Lead to Closed**
 
 Stages: Lead, Qualified, Proposal, Negotiation, Closed Won, Closed Lost.
+
+### 2024-12-18
+
+**feat: Kanban board for deal stage drag-and-drop management**
+
+React DnD Kanban board. Stage changes persist via PATCH /api/v1/deals/:id immediately on drop.
