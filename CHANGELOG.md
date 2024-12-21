@@ -37,3 +37,9 @@ Stages: Lead, Qualified, Proposal, Negotiation, Closed Won, Closed Lost.
 **feat: Kanban board for deal stage drag-and-drop management**
 
 React DnD Kanban board. Stage changes persist via PATCH /api/v1/deals/:id immediately on drop.
+
+### 2024-12-21
+
+**feat: task management with priority levels and due dates**
+
+Priorities: critical, high, medium, low. Tasks grouped by status: To Do, In Progress, Completed, Cancelled.
