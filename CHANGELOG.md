@@ -43,3 +43,9 @@ React DnD Kanban board. Stage changes persist via PATCH /api/v1/deals/:id immedi
 **feat: task management with priority levels and due dates**
 
 Priorities: critical, high, medium, low. Tasks grouped by status: To Do, In Progress, Completed, Cancelled.
+
+### 2024-12-24
+
+**feat: activity feed with call email meeting and note types**
+
+Timeline view sorted by created_at descending. Each activity shows type icon, description, and timestamp.
