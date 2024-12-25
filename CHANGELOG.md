@@ -49,3 +49,9 @@ Priorities: critical, high, medium, low. Tasks grouped by status: To Do, In Prog
 **feat: activity feed with call email meeting and note types**
 
 Timeline view sorted by created_at descending. Each activity shows type icon, description, and timestamp.
+
+### 2024-12-25
+
+**feat: append-only audit log for all create update delete actions**
+
+AuditLog.log called from ApplicationController after every write. No update or destroy on audit records.
