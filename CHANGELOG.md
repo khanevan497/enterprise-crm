@@ -55,3 +55,9 @@ Timeline view sorted by created_at descending. Each activity shows type icon, de
 **feat: append-only audit log for all create update delete actions**
 
 AuditLog.log called from ApplicationController after every write. No update or destroy on audit records.
+
+### 2025-01-11
+
+**feat: dashboard with KPI cards and revenue charts**
+
+KPI: total contacts, active deals, closed won this month, total pipeline value. Monthly revenue area chart.
