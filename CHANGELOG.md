@@ -61,3 +61,9 @@ AuditLog.log called from ApplicationController after every write. No update or d
 **feat: dashboard with KPI cards and revenue charts**
 
 KPI: total contacts, active deals, closed won this month, total pipeline value. Monthly revenue area chart.
+
+### 2025-02-10
+
+**feat: AI assistant chat interface proxied to FastAPI service**
+
+Rails AiController proxies to Python FastAPI at AI_SERVICE_URL. Falls back to mock responses if unreachable.
