@@ -67,3 +67,9 @@ KPI: total contacts, active deals, closed won this month, total pipeline value. 
 **feat: AI assistant chat interface proxied to FastAPI service**
 
 Rails AiController proxies to Python FastAPI at AI_SERVICE_URL. Falls back to mock responses if unreachable.
+
+### 2025-03-05
+
+**feat: per-contact AI insight panel with mock fallback**
+
+Contact detail page shows AI-generated insights. Mock response used when AI service is offline.
