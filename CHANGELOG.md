@@ -73,3 +73,9 @@ Rails AiController proxies to Python FastAPI at AI_SERVICE_URL. Falls back to mo
 **feat: per-contact AI insight panel with mock fallback**
 
 Contact detail page shows AI-generated insights. Mock response used when AI service is offline.
+
+### 2025-04-02
+
+**feat: global search across contacts companies and deals**
+
+Single GET /api/v1/search?q= endpoint searches across three entity types. Returns ranked combined results.
