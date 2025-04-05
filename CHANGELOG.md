@@ -79,3 +79,9 @@ Contact detail page shows AI-generated insights. Mock response used when AI serv
 **feat: global search across contacts companies and deals**
 
 Single GET /api/v1/search?q= endpoint searches across three entity types. Returns ranked combined results.
+
+### 2025-04-05
+
+**feat: RBAC with owner admin manager sales_representative viewer**
+
+Five roles with descending permission levels. Role enforced via authorize! in ApplicationController.
