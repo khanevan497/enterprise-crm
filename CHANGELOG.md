@@ -85,3 +85,9 @@ Single GET /api/v1/search?q= endpoint searches across three entity types. Return
 **feat: RBAC with owner admin manager sales_representative viewer**
 
 Five roles with descending permission levels. Role enforced via authorize! in ApplicationController.
+
+### 2025-04-30
+
+**fix: resolve N+1 query on contacts list with eager loading**
+
+Added includes(:company) to contacts query. Reduced 51 queries to 2 on a 50-contact page.
