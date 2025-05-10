@@ -91,3 +91,9 @@ Five roles with descending permission levels. Role enforced via authorize! in Ap
 **fix: resolve N+1 query on contacts list with eager loading**
 
 Added includes(:company) to contacts query. Reduced 51 queries to 2 on a 50-contact page.
+
+### 2025-05-10
+
+**feat: Sidekiq background job integration with Redis**
+
+Sidekiq configured with Redis. Used for sending notification emails and async AI insight generation.
