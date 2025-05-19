@@ -97,3 +97,9 @@ Added includes(:company) to contacts query. Reduced 51 queries to 2 on a 50-cont
 **feat: Sidekiq background job integration with Redis**
 
 Sidekiq configured with Redis. Used for sending notification emails and async AI insight generation.
+
+### 2025-05-19
+
+**feat: monthly revenue area chart with Recharts**
+
+AreaChart showing sum of closed-won deal values by month over trailing 12 months.
