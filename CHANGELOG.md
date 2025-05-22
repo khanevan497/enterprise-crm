@@ -103,3 +103,9 @@ Sidekiq configured with Redis. Used for sending notification emails and async AI
 **feat: monthly revenue area chart with Recharts**
 
 AreaChart showing sum of closed-won deal values by month over trailing 12 months.
+
+### 2025-05-22
+
+**feat: pipeline distribution pie chart on dashboard**
+
+PieChart showing deal count and total value by stage. Updates live when deals change stage.
