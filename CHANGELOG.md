@@ -109,3 +109,9 @@ AreaChart showing sum of closed-won deal values by month over trailing 12 months
 **feat: pipeline distribution pie chart on dashboard**
 
 PieChart showing deal count and total value by stage. Updates live when deals change stage.
+
+### 2025-06-25
+
+**fix: JWT token expiry not refreshing frontend session**
+
+AuthContext now checks token expiry on each request. Automatically logs out and redirects on 401.
