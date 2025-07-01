@@ -115,3 +115,9 @@ PieChart showing deal count and total value by stage. Updates live when deals ch
 **fix: JWT token expiry not refreshing frontend session**
 
 AuthContext now checks token expiry on each request. Automatically logs out and redirects on 401.
+
+### 2025-07-01
+
+**refactor: extract API envelope to ApplicationController concern**
+
+All responses now wrapped via render_success and render_error helpers. Consistent {data, error, meta} shape.
