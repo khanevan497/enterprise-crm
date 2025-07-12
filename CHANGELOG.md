@@ -121,3 +121,9 @@ AuthContext now checks token expiry on each request. Automatically logs out and 
 **refactor: extract API envelope to ApplicationController concern**
 
 All responses now wrapped via render_success and render_error helpers. Consistent {data, error, meta} shape.
+
+### 2025-07-12
+
+**feat: one-click login buttons for all demo role accounts**
+
+Login page shows 5 buttons for owner, admin, manager, sales rep, viewer. Fills credentials and submits.
