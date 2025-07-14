@@ -127,3 +127,9 @@ All responses now wrapped via render_success and render_error helpers. Consisten
 **feat: one-click login buttons for all demo role accounts**
 
 Login page shows 5 buttons for owner, admin, manager, sales rep, viewer. Fills credentials and submits.
+
+### 2025-07-14
+
+**feat: contact status badge and filter sidebar**
+
+Sidebar filters by status. Badge color matches status: green=active, yellow=lead, blue=prospect.
