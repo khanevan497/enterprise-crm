@@ -133,3 +133,9 @@ Login page shows 5 buttons for owner, admin, manager, sales rep, viewer. Fills c
 **feat: contact status badge and filter sidebar**
 
 Sidebar filters by status. Badge color matches status: green=active, yellow=lead, blue=prospect.
+
+### 2025-07-17
+
+**fix: resolve CORS configuration for production environment**
+
+Added explicit CORS origins list for production. Development uses wildcard. Credentials flag enabled.
