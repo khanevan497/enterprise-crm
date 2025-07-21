@@ -139,3 +139,9 @@ Sidebar filters by status. Badge color matches status: green=active, yellow=lead
 **fix: resolve CORS configuration for production environment**
 
 Added explicit CORS origins list for production. Development uses wildcard. Credentials flag enabled.
+
+### 2025-07-21
+
+**feat: deal stage inline update from Kanban card**
+
+Click deal card to open slide-over. Stage dropdown updates immediately without leaving Kanban view.
