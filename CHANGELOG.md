@@ -145,3 +145,9 @@ Added explicit CORS origins list for production. Development uses wildcard. Cred
 **feat: deal stage inline update from Kanban card**
 
 Click deal card to open slide-over. Stage dropdown updates immediately without leaving Kanban view.
+
+### 2025-07-28
+
+**feat: activity type filter tabs on feed page**
+
+Tab bar filters feed by: All, Calls, Emails, Meetings, Demos, Notes.
