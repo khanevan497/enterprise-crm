@@ -157,3 +157,9 @@ Tab bar filters feed by: All, Calls, Emails, Meetings, Demos, Notes.
 **perf: add database indexes on organization_id foreign keys**
 
 Added index on organization_id to contacts, companies, deals, tasks, activities tables.
+
+### 2025-07-29
+
+**chore: add RuboCop configuration and fix all style offenses**
+
+Set RuboCop to Rails 8 defaults. Fixed 47 offenses across controllers and models.
