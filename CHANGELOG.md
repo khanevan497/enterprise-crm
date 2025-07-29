@@ -151,3 +151,9 @@ Click deal card to open slide-over. Stage dropdown updates immediately without l
 **feat: activity type filter tabs on feed page**
 
 Tab bar filters feed by: All, Calls, Emails, Meetings, Demos, Notes.
+
+### 2025-07-29
+
+**perf: add database indexes on organization_id foreign keys**
+
+Added index on organization_id to contacts, companies, deals, tasks, activities tables.
