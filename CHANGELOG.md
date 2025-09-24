@@ -163,3 +163,9 @@ Added index on organization_id to contacts, companies, deals, tasks, activities 
 **chore: add RuboCop configuration and fix all style offenses**
 
 Set RuboCop to Rails 8 defaults. Fixed 47 offenses across controllers and models.
+
+### 2025-09-24
+
+**fix: correct deal total value aggregation on dashboard**
+
+Dashboard was summing all deals instead of only closed-won. Fixed scope in DashboardController.
