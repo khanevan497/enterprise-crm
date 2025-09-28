@@ -169,3 +169,9 @@ Set RuboCop to Rails 8 defaults. Fixed 47 offenses across controllers and models
 **fix: correct deal total value aggregation on dashboard**
 
 Dashboard was summing all deals instead of only closed-won. Fixed scope in DashboardController.
+
+### 2025-09-28
+
+**feat: company-contact many-to-one relationship management**
+
+Contact creation form includes company select. Company detail shows all linked contacts.
