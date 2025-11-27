@@ -175,3 +175,9 @@ Dashboard was summing all deals instead of only closed-won. Fixed scope in Dashb
 **feat: company-contact many-to-one relationship management**
 
 Contact creation form includes company select. Company detail shows all linked contacts.
+
+### 2025-11-27
+
+**docs: document all API v1 endpoints with example payloads**
+
+Full reference for 18 endpoint groups with request/response bodies and error codes.
