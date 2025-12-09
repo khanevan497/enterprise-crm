@@ -181,3 +181,9 @@ Contact creation form includes company select. Company detail shows all linked c
 **docs: document all API v1 endpoints with example payloads**
 
 Full reference for 18 endpoint groups with request/response bodies and error codes.
+
+### 2025-12-09
+
+**feat: deal expected close date tracking and overdue indicator**
+
+Deals past expected close date shown with overdue badge. Filter for overdue deals on pipeline page.
