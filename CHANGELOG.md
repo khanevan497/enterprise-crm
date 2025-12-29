@@ -187,3 +187,9 @@ Full reference for 18 endpoint groups with request/response bodies and error cod
 **feat: deal expected close date tracking and overdue indicator**
 
 Deals past expected close date shown with overdue badge. Filter for overdue deals on pipeline page.
+
+### 2025-12-29
+
+**refactor: centralize current_user auth logic in ApplicationController**
+
+before_action :authenticate_user! with JWT decode. current_user memoized per request.
