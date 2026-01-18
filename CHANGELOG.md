@@ -193,3 +193,9 @@ Deals past expected close date shown with overdue badge. Filter for overdue deal
 **refactor: centralize current_user auth logic in ApplicationController**
 
 before_action :authenticate_user! with JWT decode. current_user memoized per request.
+
+### 2026-01-18
+
+**feat: contact CSV import with validation and error reporting**
+
+POST /api/v1/contacts/import accepts CSV. Returns imported count and array of row-level errors.
