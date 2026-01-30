@@ -199,3 +199,9 @@ before_action :authenticate_user! with JWT decode. current_user memoized per req
 **feat: contact CSV import with validation and error reporting**
 
 POST /api/v1/contacts/import accepts CSV. Returns imported count and array of row-level errors.
+
+### 2026-01-30
+
+**fix: fix audit log pagination returning wrong page**
+
+Offset was calculated incorrectly for page > 1. Fixed to (page - 1) * per_page.
