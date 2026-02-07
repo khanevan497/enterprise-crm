@@ -205,3 +205,9 @@ POST /api/v1/contacts/import accepts CSV. Returns imported count and array of ro
 **fix: fix audit log pagination returning wrong page**
 
 Offset was calculated incorrectly for page > 1. Fixed to (page - 1) * per_page.
+
+### 2026-02-07
+
+**feat: task due date badge and overdue highlighting**
+
+Tasks past due_date highlighted in red. Badge shows days overdue.
