@@ -211,3 +211,9 @@ Offset was calculated incorrectly for page > 1. Fixed to (page - 1) * per_page.
 **feat: task due date badge and overdue highlighting**
 
 Tasks past due_date highlighted in red. Badge shows days overdue.
+
+### 2026-02-12
+
+**chore: add GitHub Actions CI workflow for test and lint**
+
+CI runs RuboCop, Rails tests, and Vite build on every push to main and pull_request.
