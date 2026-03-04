@@ -217,3 +217,9 @@ Tasks past due_date highlighted in red. Badge shows days overdue.
 **chore: add GitHub Actions CI workflow for test and lint**
 
 CI runs RuboCop, Rails tests, and Vite build on every push to main and pull_request.
+
+### 2026-03-04
+
+**feat: deal won and lost reason capture on stage change**
+
+When moving deal to Closed Won or Closed Lost, modal prompts for reason. Stored on deal record.
