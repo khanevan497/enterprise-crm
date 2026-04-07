@@ -223,3 +223,9 @@ CI runs RuboCop, Rails tests, and Vite build on every push to main and pull_requ
 **feat: deal won and lost reason capture on stage change**
 
 When moving deal to Closed Won or Closed Lost, modal prompts for reason. Stored on deal record.
+
+### 2026-04-07
+
+**fix: resolve race condition on concurrent deal stage update**
+
+Added optimistic locking via lock_version on deals. Returns 409 if version mismatch on update.
