@@ -229,3 +229,9 @@ When moving deal to Closed Won or Closed Lost, modal prompts for reason. Stored 
 **fix: resolve race condition on concurrent deal stage update**
 
 Added optimistic locking via lock_version on deals. Returns 409 if version mismatch on update.
+
+### 2026-04-26
+
+**feat: company revenue tier classification and filtering**
+
+Revenue tiers: startup (<1M), smb (1-10M), mid-market (10-100M), enterprise (100M+). Filter on companies page.
