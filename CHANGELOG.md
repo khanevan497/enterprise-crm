@@ -235,3 +235,9 @@ Added optimistic locking via lock_version on deals. Returns 409 if version misma
 **feat: company revenue tier classification and filtering**
 
 Revenue tiers: startup (<1M), smb (1-10M), mid-market (10-100M), enterprise (100M+). Filter on companies page.
+
+### 2026-05-30
+
+**perf: optimize dashboard aggregate queries with SQL window functions**
+
+Replaced Ruby-level aggregation loops with single SQL query using SUM and GROUP BY.
