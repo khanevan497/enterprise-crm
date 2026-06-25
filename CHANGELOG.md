@@ -241,3 +241,9 @@ Revenue tiers: startup (<1M), smb (1-10M), mid-market (10-100M), enterprise (100
 **perf: optimize dashboard aggregate queries with SQL window functions**
 
 Replaced Ruby-level aggregation loops with single SQL query using SUM and GROUP BY.
+
+### 2026-06-25
+
+**feat: TanStack Query infinite scroll on contacts list**
+
+useInfiniteQuery with cursor-based pagination. Contacts load as user scrolls down.
