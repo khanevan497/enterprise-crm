@@ -247,3 +247,9 @@ Replaced Ruby-level aggregation loops with single SQL query using SUM and GROUP 
 **feat: TanStack Query infinite scroll on contacts list**
 
 useInfiniteQuery with cursor-based pagination. Contacts load as user scrolls down.
+
+### 2026-07-13
+
+**fix: fix Kanban board layout overflow on small screens**
+
+Added overflow-x: auto to Kanban container. Cards now scroll horizontally on mobile.
