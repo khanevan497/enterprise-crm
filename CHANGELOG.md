@@ -253,3 +253,9 @@ useInfiniteQuery with cursor-based pagination. Contacts load as user scrolls dow
 **fix: fix Kanban board layout overflow on small screens**
 
 Added overflow-x: auto to Kanban container. Cards now scroll horizontally on mobile.
+
+### 2026-07-16
+
+**refactor: consolidate form validation using Zod schemas**
+
+All frontend forms now validate against shared Zod schemas before submission.
