@@ -259,3 +259,9 @@ Added overflow-x: auto to Kanban container. Cards now scroll horizontally on mob
 **refactor: consolidate form validation using Zod schemas**
 
 All frontend forms now validate against shared Zod schemas before submission.
+
+### 2026-07-27
+
+**feat: bulk contact tag assignment**
+
+Select multiple contacts, assign tags from dropdown. Tags stored as string array on contact.
