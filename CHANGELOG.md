@@ -265,3 +265,9 @@ All frontend forms now validate against shared Zod schemas before submission.
 **feat: bulk contact tag assignment**
 
 Select multiple contacts, assign tags from dropdown. Tags stored as string array on contact.
+
+### 2026-08-02
+
+**docs: update README with full setup and demo account instructions**
+
+Added prerequisites, backend setup, frontend setup, Sidekiq instructions, and demo login table.
