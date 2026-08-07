@@ -271,3 +271,9 @@ Select multiple contacts, assign tags from dropdown. Tags stored as string array
 **docs: update README with full setup and demo account instructions**
 
 Added prerequisites, backend setup, frontend setup, Sidekiq instructions, and demo login table.
+
+### 2026-08-07
+
+**feat: deals report PDF export**
+
+GET /api/v1/deals/export?format=pdf returns PDF with deals table, totals, and pipeline chart.
