@@ -277,3 +277,9 @@ Added prerequisites, backend setup, frontend setup, Sidekiq instructions, and de
 **feat: deals report PDF export**
 
 GET /api/v1/deals/export?format=pdf returns PDF with deals table, totals, and pipeline chart.
+
+### 2026-08-11
+
+**fix: fix activity feed ordering by created_at descending**
+
+Feed was ordering by id instead of created_at. Fixed ORDER BY clause in ActivitiesController.
