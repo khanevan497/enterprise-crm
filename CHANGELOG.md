@@ -283,3 +283,9 @@ GET /api/v1/deals/export?format=pdf returns PDF with deals table, totals, and pi
 **fix: fix activity feed ordering by created_at descending**
 
 Feed was ordering by id instead of created_at. Fixed ORDER BY clause in ActivitiesController.
+
+### 2026-08-25
+
+**chore: upgrade to Vite 8 and React 18 strict mode**
+
+Updated all Vite config, postcss, and peer dependencies for Vite 8. Enabled React.StrictMode.
