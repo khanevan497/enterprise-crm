@@ -289,3 +289,9 @@ Feed was ordering by id instead of created_at. Fixed ORDER BY clause in Activiti
 **chore: upgrade to Vite 8 and React 18 strict mode**
 
 Updated all Vite config, postcss, and peer dependencies for Vite 8. Enabled React.StrictMode.
+
+### 2026-09-23
+
+**release: v1.0.0 stable enterprise CRM**
+
+First stable release. All core CRM features: contacts, companies, deals, tasks, activities, audit log, AI, RBAC.
